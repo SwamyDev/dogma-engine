@@ -1,0 +1,80 @@
+<?xml version="1.0"?>
+<Scene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Level_01" Visible="true">
+    <Layers>
+        <Layer Name="testLayer" Visible="true">
+            <Items>
+                <Item xsi:type="TextureItem" Name="Texture_0003" Visible="true">
+                    <Position>
+                        <X>-258</X>
+                        <Y>244</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>ScreenManagement\background.png</texture_filename>
+                    <asset_name>ScreenManagement\background</asset_name>
+                    <Origin>
+                        <X>400</X>
+                        <Y>240</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="Texture_0004" Visible="true">
+                    <Position>
+                        <X>124</X>
+                        <Y>46</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>ScreenManagement\splashscreen.png</texture_filename>
+                    <asset_name>ScreenManagement\splashscreen</asset_name>
+                    <Origin>
+                        <X>400</X>
+                        <Y>240</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+            </Items>
+            <ScrollSpeed>
+                <X>1</X>
+                <Y>1</Y>
+            </ScrollSpeed>
+            <CustomProperties />
+        </Layer>
+    </Layers>
+    <CustomProperties />
+    <EditorRelated>
+        <NextItemNumber>4</NextItemNumber>
+        <ContentRootFolder>E:\Pontification\GIT\Game\PontificationContent</ContentRootFolder>
+        <CameraPosition>
+            <X>0</X>
+            <Y>0</Y>
+        </CameraPosition>
+        <Version>1.3.0.0</Version>
+    </EditorRelated>
+</Scene>
