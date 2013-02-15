@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <ProductVersion>10.0.0</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{9F2BD2E2-B8F2-447C-85A0-D8E13713084F}</ProjectGuid>
+    <ProjectTypeGuids>{9B831FEF-F496-498F-9FE8-180DA5CB4258};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PontificationLinux</RootNamespace>
+    <AssemblyName>Pontification-Linux</AssemblyName>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug</OutputPath>
+    <DefineConstants>DEBUG;</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <DebugType>none</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release</OutputPath>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <PlatformTarget>x86</PlatformTarget>
+    <ConsolePause>false</ConsolePause>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="Lidgren.Network">
+      <HintPath>..\MonoGame\Linux\Lidgren.Network.dll</HintPath>
+    </Reference>
+    <Reference Include="MonoGame.Framework.Linux">
+      <HintPath>..\MonoGame\Linux\MonoGame.Framework.Linux.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SceneManagement\Scene.cs">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Compile>
+    <Compile Include="SceneManagement\SceneManager.cs" />
+    <Compile Include="ScreenManagement\GameScreen.cs" />
+    <Compile Include="ScreenManagement\IScreenContent.cs" />
+    <Compile Include="ScreenManagement\InputState.cs" />
+    <Compile Include="ScreenManagement\ScreenState.cs" />
+    <Compile Include="Bag.cs" />
+    <Compile Include="Game.cs" />
+    <Compile Include="ScreenManagement\ScreenManager.cs" />
+    <Compile Include="Animation.cs" />
+    <Compile Include="GeometryFunctions.cs" />
+    <Compile Include="Time.cs" />
+    <Compile Include="Components\Camera.cs" />
+    <Compile Include="Components\CharacterPhysicsComponent.cs" />
+    <Compile Include="Components\PhysicsComponent.cs" />
+    <Compile Include="Components\PlayerInput.cs" />
+    <Compile Include="Components\Receiver.cs" />
+    <Compile Include="Components\Sender.cs" />
+    <Compile Include="Components\TextureComponent.cs" />
+    <Compile Include="Coroutines\Scheduler.cs" />
+    <Compile Include="Coroutines\Signal.cs" />
+    <Compile Include="Coroutines\TaskItem.cs" />
+    <Compile Include="Coroutines\TaskList.cs" />
+    <Compile Include="Coroutines\WaitForSeconds.cs" />
+    <Compile Include="Coroutines\YieldState.cs" />
+    <Compile Include="Monitoring\Debug.cs" />
+    <Compile Include="Monitoring\Logger.cs" />
+    <Compile Include="Monitoring\PerformancePanel.cs" />
+    <Compile Include="Monitoring\Primitives.cs" />
+    <Compile Include="Physics\CharacterObject.cs" />
+    <Compile Include="Physics\CompositObject.cs" />
+    <Compile Include="Physics\ConvertUnits.cs" />
+    <Compile Include="Physics\DynamicObject.cs" />
+    <Compile Include="Physics\Line.cs" />
+    <Compile Include="Physics\PhysicsObject.cs" />
+    <Compile Include="Physics\Polygon.cs" />
+    <Compile Include="Physics\Sensor.cs" />
+    <Compile Include="Physics\Shape.cs" />
+    <Compile Include="Physics\StaticObject.cs" />
+    <Compile Include="Physics\World.cs" />
+    <Compile Include="GameObject.cs" />
+    <Compile Include="SceneManagement\AnimationItem.cs" />
+    <Compile Include="SceneManagement\ComponentItemCollection.cs" />
+    <Compile Include="SceneManagement\GameObjectReference.cs" />
+    <Compile Include="SceneManagement\ListItem.cs" />
+    <Compile Include="SceneManagement\PolygonPath.cs" />
+    <Compile Include="SceneManagement\PropertyBag.cs" />
+    <Compile Include="SceneManagement\SoundEffectsItem.cs" />
+    <Compile Include="Components\AbilityManager.cs" />
+    <Compile Include="Components\AnimationComponent.cs" />
+    <Compile Include="Components\CharacterEffektManager.cs" />
+    <Compile Include="Components\CharacterStats.cs" />
+    <Compile Include="Components\Component.cs" />
+    <Compile Include="Components\Cursor.cs" />
+    <Compile Include="Components\CursorSensitive.cs" />
+    <Compile Include="Components\LifeDrainAbility.cs" />
+    <Compile Include="Components\Possessable.cs" />
+    <Compile Include="Components\PossessionAbility.cs" />
+    <Compile Include="Components\PriestController.cs" />
+    <Compile Include="Components\SoundComponent.cs" />
+    <Compile Include="Interfaces\IAbility.cs" />
+    <Compile Include="Music.cs" />
+    <Compile Include="SoundEffects.cs" />
+  </ItemGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <ItemGroup>
+    <Folder Include="SceneManagement\" />
+    <Folder Include="ScreenManagement\" />
+    <Folder Include="Components\" />
+    <Folder Include="Coroutines\" />
+    <Folder Include="Monitoring\" />
+    <Folder Include="Physics\" />
+    <Folder Include="Interfaces\" />
+    <Folder Include="Content\" />
+    <Folder Include="Content\CharacterSounds\" />
+    <Folder Include="Content\CharacterSprites\" />
+    <Folder Include="Content\Monitoring\" />
+    <Folder Include="Content\ScreenManagement\" />
+    <Folder Include="Content\Levels\" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Game.ico" />
+    <None Include="GameThumbnail.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\Monitoring\UbuntuMonoR.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\ScreenManagement\menufont.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\ScreenManagement\blank.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\CharacterSprites\cursor_sprite.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\CharacterSprites\lilly_test.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\CharacterSprites\player_sprite.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\CharacterSprites\priest_sprite.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\CharacterSprites\priest_sprite_possessed.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\background-00.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\background-01.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\front-grass-01.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\front-grass.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\front-mast.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\front-pillar-00.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\front-pillar-01.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\walking-00.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\walking-01.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\walking-pillar-00.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\walking-pillar-01.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level01\background-00.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level01\background-fog.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level01\foreground-00.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level01\foreground-wood.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level01\gate.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level01\walking-00.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level01\walking-01.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level01\walking-platform-00.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level01\walking-platform-01.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\ScreenManagement\background.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\ScreenManagement\gamefont.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\ScreenManagement\gradient.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\ScreenManagement\splashscreen.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Monitoring\garbage-texture-max-size.xnb" />
+    <Content Include="Content\Monitoring\garbage-texture.xnb" />
+    <Content Include="Content\ConsoleFont.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\roundedCorner.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\background-music.xnb">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+    <Content Include="Content\Levels\Level00\background-music.wma">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Content\CharacterSounds\landing.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Gettext-ScanForTranslations>false</Gettext-ScanForTranslations>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Content\CharacterSounds\possess.xnb">
+      <Gettext-ScanForTranslations>false</Gettext-ScanForTranslations>
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Content\CharacterSounds\running.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Gettext-ScanForTranslations>false</Gettext-ScanForTranslations>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Content\CharacterSounds\start-jump.xnb">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+      <Gettext-ScanForTranslations>false</Gettext-ScanForTranslations>
+    </EmbeddedResource>
+  </ItemGroup>
+</Project>
