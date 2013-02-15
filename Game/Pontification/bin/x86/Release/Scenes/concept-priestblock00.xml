@@ -1,0 +1,2373 @@
+<?xml version="1.0"?>
+<Scene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="PriestBlock-00" Visible="true">
+    <Layers>
+        <Layer Name="farback" Visible="true">
+            <Items>
+                <Item xsi:type="TextureItem" Name="fb-wall-00" Visible="true">
+                    <Position>
+                        <X>470</X>
+                        <Y>-229</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\farback-wall-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\farback-wall-00</asset_name>
+                    <Origin>
+                        <X>879</X>
+                        <Y>286</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="fb-arch-shadows-00" Visible="true">
+                    <Position>
+                        <X>480</X>
+                        <Y>-190</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\farback-arch-shadows.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\farback-arch-shadows</asset_name>
+                    <Origin>
+                        <X>413</X>
+                        <Y>330</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+            </Items>
+            <ScrollSpeed>
+                <X>0.6</X>
+                <Y>0.6</Y>
+            </ScrollSpeed>
+            <CustomProperties />
+        </Layer>
+        <Layer Name="midback" Visible="true">
+            <Items>
+                <Item xsi:type="GameObjectItem" Name="mb-cog-00" Visible="true">
+                    <Position>
+                        <X>1012</X>
+                        <Y>-290</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="TextureComponent" IsComponent="True">
+                            <Property Binder="Texture" Type="TextureItem">
+                                <TextureItem Visible="true">
+                                    <Position>
+                                        <X>1012</X>
+                                        <Y>-290</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <Rotation>0</Rotation>
+                                    <Scale>
+                                        <X>1</X>
+                                        <Y>1</Y>
+                                    </Scale>
+                                    <TintColor>
+                                        <R>255</R>
+                                        <G>255</G>
+                                        <B>255</B>
+                                        <A>255</A>
+                                        <PackedValue>4294967295</PackedValue>
+                                    </TintColor>
+                                    <FlipHorizontally>false</FlipHorizontally>
+                                    <FlipVertically>false</FlipVertically>
+                                    <texture_filename>Levels\BlockPriest00\middle-back-cog-02.png</texture_filename>
+                                    <asset_name>Levels\BlockPriest00\middle-back-cog-02</asset_name>
+                                    <Origin>
+                                        <X>66</X>
+                                        <Y>65</Y>
+                                    </Origin>
+                                    <isTemplate>false</isTemplate>
+                                </TextureItem>
+                            </Property>
+                            <Property Binder="Offset" Type="Vector2">
+                                <Vector2>
+                                    <X>0</X>
+                                    <Y>0</Y>
+                                </Vector2>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="RotationComponent" IsComponent="True">
+                            <Property Binder="Speed" Type="float">
+                                <float>-5</float>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="mb-cog-01" Visible="true">
+                    <Position>
+                        <X>867</X>
+                        <Y>-404</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="TextureComponent" IsComponent="True">
+                            <Property Binder="Texture" Type="TextureItem">
+                                <TextureItem Visible="true">
+                                    <Position>
+                                        <X>867</X>
+                                        <Y>-404</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <Rotation>0</Rotation>
+                                    <Scale>
+                                        <X>1</X>
+                                        <Y>1</Y>
+                                    </Scale>
+                                    <TintColor>
+                                        <R>255</R>
+                                        <G>255</G>
+                                        <B>255</B>
+                                        <A>255</A>
+                                        <PackedValue>4294967295</PackedValue>
+                                    </TintColor>
+                                    <FlipHorizontally>false</FlipHorizontally>
+                                    <FlipVertically>false</FlipVertically>
+                                    <texture_filename>Levels\BlockPriest00\middle-back-cog-01.png</texture_filename>
+                                    <asset_name>Levels\BlockPriest00\middle-back-cog-01</asset_name>
+                                    <Origin>
+                                        <X>106</X>
+                                        <Y>107</Y>
+                                    </Origin>
+                                    <isTemplate>false</isTemplate>
+                                </TextureItem>
+                            </Property>
+                            <Property Binder="Offset" Type="Vector2">
+                                <Vector2>
+                                    <X>0</X>
+                                    <Y>0</Y>
+                                </Vector2>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="RotationComponent" IsComponent="True">
+                            <Property Binder="Speed" Type="float">
+                                <float>3</float>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="mb-cog-02" Visible="true">
+                    <Position>
+                        <X>483</X>
+                        <Y>-416</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="TextureComponent" IsComponent="True">
+                            <Property Binder="Texture" Type="TextureItem">
+                                <TextureItem Visible="true">
+                                    <Position>
+                                        <X>483</X>
+                                        <Y>-416</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <Rotation>0</Rotation>
+                                    <Scale>
+                                        <X>1</X>
+                                        <Y>1</Y>
+                                    </Scale>
+                                    <TintColor>
+                                        <R>255</R>
+                                        <G>255</G>
+                                        <B>255</B>
+                                        <A>255</A>
+                                        <PackedValue>4294967295</PackedValue>
+                                    </TintColor>
+                                    <FlipHorizontally>false</FlipHorizontally>
+                                    <FlipVertically>false</FlipVertically>
+                                    <texture_filename>Levels\BlockPriest00\middle-back-cog-02.png</texture_filename>
+                                    <asset_name>Levels\BlockPriest00\middle-back-cog-02</asset_name>
+                                    <Origin>
+                                        <X>66</X>
+                                        <Y>65</Y>
+                                    </Origin>
+                                    <isTemplate>false</isTemplate>
+                                </TextureItem>
+                            </Property>
+                            <Property Binder="Offset" Type="Vector2">
+                                <Vector2>
+                                    <X>0</X>
+                                    <Y>0</Y>
+                                </Vector2>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="RotationComponent" IsComponent="True">
+                            <Property Binder="Speed" Type="float">
+                                <float>-7</float>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="TextureItem" Name="mb-static-cog-00" Visible="true">
+                    <Position>
+                        <X>676</X>
+                        <Y>-366</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\middleback-static-cogs-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\middleback-static-cogs-00</asset_name>
+                    <Origin>
+                        <X>142</X>
+                        <Y>145</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="mb-unicorn-shadow-00" Visible="true">
+                    <Position>
+                        <X>337</X>
+                        <Y>-33</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\middleback-unicorn-shadow-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\middleback-unicorn-shadow-00</asset_name>
+                    <Origin>
+                        <X>61</X>
+                        <Y>62</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+            </Items>
+            <ScrollSpeed>
+                <X>0.7</X>
+                <Y>0.7</Y>
+            </ScrollSpeed>
+            <CustomProperties />
+        </Layer>
+        <Layer Name="background" Visible="true">
+            <Items>
+                <Item xsi:type="TextureItem" Name="b-arches-00" Visible="true">
+                    <Position>
+                        <X>729</X>
+                        <Y>-279</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\background-arches-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\background-arches-00</asset_name>
+                    <Origin>
+                        <X>489</X>
+                        <Y>340</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+            </Items>
+            <ScrollSpeed>
+                <X>0.8</X>
+                <Y>0.8</Y>
+            </ScrollSpeed>
+            <CustomProperties />
+        </Layer>
+        <Layer Name="walking-textures" Visible="true">
+            <Items>
+                <Item xsi:type="TextureItem" Name="w-floor-00" Visible="true">
+                    <Position>
+                        <X>815</X>
+                        <Y>217</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\walking-floor-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\walking-floor-00</asset_name>
+                    <Origin>
+                        <X>879</X>
+                        <Y>222</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="w-wall-left" Visible="true">
+                    <Position>
+                        <X>380</X>
+                        <Y>-124</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\walking-wall-left.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\walking-wall-left</asset_name>
+                    <Origin>
+                        <X>444</X>
+                        <Y>454</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="w-wall-right" Visible="true">
+                    <Position>
+                        <X>1251</X>
+                        <Y>-109</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\walking-wall-right.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\walking-wall-right</asset_name>
+                    <Origin>
+                        <X>443</X>
+                        <Y>469</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="w-shed-back-00" Visible="true">
+                    <Position>
+                        <X>787</X>
+                        <Y>45</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\walking-back-shed-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\walking-back-shed-00</asset_name>
+                    <Origin>
+                        <X>609</X>
+                        <Y>179</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="w-lift-hole-00" Visible="true">
+                    <Position>
+                        <X>1241</X>
+                        <Y>228</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\walking-lift-hole-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\walking-lift-hole-00</asset_name>
+                    <Origin>
+                        <X>191</X>
+                        <Y>46</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+            </Items>
+            <ScrollSpeed>
+                <X>1</X>
+                <Y>1</Y>
+            </ScrollSpeed>
+            <CustomProperties />
+        </Layer>
+        <Layer Name="walking" Visible="true">
+            <Items>
+                <Item xsi:type="PhysicsPath" Name="PhysicsPath_0008" Visible="true">
+                    <Position>
+                        <X>1566</X>
+                        <Y>290</Y>
+                    </Position>
+                    <CustomProperties />
+                    <LocalPoints>
+                        <Vector2>
+                            <X>0</X>
+                            <Y>0</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>0</X>
+                            <Y>-58</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>-174</X>
+                            <Y>-58</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>-174</X>
+                            <Y>0</Y>
+                        </Vector2>
+                    </LocalPoints>
+                    <WorldPoints>
+                        <Vector2>
+                            <X>1566</X>
+                            <Y>290</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>1566</X>
+                            <Y>232</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>1392</X>
+                            <Y>232</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>1392</X>
+                            <Y>290</Y>
+                        </Vector2>
+                    </WorldPoints>
+                    <IsPolygon>true</IsPolygon>
+                    <LineWidth>8</LineWidth>
+                    <LineColor>
+                        <R>192</R>
+                        <G>0</G>
+                        <B>192</B>
+                        <A>145</A>
+                        <PackedValue>2445279424</PackedValue>
+                    </LineColor>
+                    <Mass>10</Mass>
+                    <Friction>2</Friction>
+                    <Restitution>0.2</Restitution>
+                    <PhysicsType>Static</PhysicsType>
+                </Item>
+                <Item xsi:type="PhysicsPath" Name="PhysicsPath_0009" Visible="true">
+                    <Position>
+                        <X>1102</X>
+                        <Y>290</Y>
+                    </Position>
+                    <CustomProperties />
+                    <LocalPoints>
+                        <Vector2>
+                            <X>0</X>
+                            <Y>0</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>0</X>
+                            <Y>-58</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>-1044</X>
+                            <Y>-58</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>-1044</X>
+                            <Y>0</Y>
+                        </Vector2>
+                    </LocalPoints>
+                    <WorldPoints>
+                        <Vector2>
+                            <X>1102</X>
+                            <Y>290</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>1102</X>
+                            <Y>232</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>58</X>
+                            <Y>232</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>58</X>
+                            <Y>290</Y>
+                        </Vector2>
+                    </WorldPoints>
+                    <IsPolygon>true</IsPolygon>
+                    <LineWidth>8</LineWidth>
+                    <LineColor>
+                        <R>192</R>
+                        <G>0</G>
+                        <B>192</B>
+                        <A>145</A>
+                        <PackedValue>2445279424</PackedValue>
+                    </LineColor>
+                    <Mass>10</Mass>
+                    <Friction>2</Friction>
+                    <Restitution>0.2</Restitution>
+                    <PhysicsType>Static</PhysicsType>
+                </Item>
+                <Item xsi:type="PhysicsPath" Name="PhysicsPath_0010" Visible="true">
+                    <Position>
+                        <X>696</X>
+                        <Y>0</Y>
+                    </Position>
+                    <CustomProperties />
+                    <LocalPoints>
+                        <Vector2>
+                            <X>0</X>
+                            <Y>0</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>0</X>
+                            <Y>-58</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>406</X>
+                            <Y>-58</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>406</X>
+                            <Y>0</Y>
+                        </Vector2>
+                    </LocalPoints>
+                    <WorldPoints>
+                        <Vector2>
+                            <X>696</X>
+                            <Y>0</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>696</X>
+                            <Y>-58</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>1102</X>
+                            <Y>-58</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>1102</X>
+                            <Y>0</Y>
+                        </Vector2>
+                    </WorldPoints>
+                    <IsPolygon>true</IsPolygon>
+                    <LineWidth>8</LineWidth>
+                    <LineColor>
+                        <R>192</R>
+                        <G>0</G>
+                        <B>192</B>
+                        <A>145</A>
+                        <PackedValue>2445279424</PackedValue>
+                    </LineColor>
+                    <Mass>10</Mass>
+                    <Friction>2</Friction>
+                    <Restitution>0.2</Restitution>
+                    <PhysicsType>Static</PhysicsType>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="PriestDoor" Visible="true">
+                    <Position>
+                        <X>87</X>
+                        <Y>145</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="PhysicsComponent" IsComponent="True">
+                            <Property Binder="Polygon" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0019" Visible="true">
+                                    <Position>
+                                        <X>87</X>
+                                        <Y>145</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>-29</X>
+                                            <Y>87</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-29</X>
+                                            <Y>-87</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>29</X>
+                                            <Y>-87</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>29</X>
+                                            <Y>87</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>58</X>
+                                            <Y>232</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>58</X>
+                                            <Y>58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>116</X>
+                                            <Y>58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>116</X>
+                                            <Y>232</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="Mass" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Friction" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Restitution" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="IgnoreGravity" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsStatic" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsSensor" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsProjectile" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="PriestDoor" IsComponent="True">
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="PriestDoorTrigger" Visible="true">
+                    <Position>
+                        <X>145</X>
+                        <Y>145</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="PhysicsComponent" IsComponent="True">
+                            <Property Binder="Polygon" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0021" Visible="true">
+                                    <Position>
+                                        <X>145</X>
+                                        <Y>145</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>-29</X>
+                                            <Y>87</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-29</X>
+                                            <Y>-87</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>29</X>
+                                            <Y>-87</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>29</X>
+                                            <Y>87</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>116</X>
+                                            <Y>232</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>116</X>
+                                            <Y>58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>174</X>
+                                            <Y>58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>174</X>
+                                            <Y>232</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="Mass" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Friction" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Restitution" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="IgnoreGravity" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsStatic" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsSensor" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                            <Property Binder="IsProjectile" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="TriggerComponent" IsComponent="True">
+                            <Property Binder="TriggerType" Type="TriggerTypes">
+                                <TriggerTypes>TT_ON_ENTER</TriggerTypes>
+                            </Property>
+                            <Property Binder="Target" Type="GameObjectReference">
+                                <GameObjectReference>
+                                    <Reference>PriestDoor</Reference>
+                                </GameObjectReference>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="death-zone-00" Visible="true">
+                    <Position>
+                        <X>-29</X>
+                        <Y>-87</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="PhysicsComponent" IsComponent="True">
+                            <Property Binder="Polygon" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0023" Visible="true">
+                                    <Position>
+                                        <X>-29</X>
+                                        <Y>-87</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>87</X>
+                                            <Y>377</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-87</X>
+                                            <Y>377</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-87</X>
+                                            <Y>-435</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>87</X>
+                                            <Y>-435</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>58</X>
+                                            <Y>290</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-116</X>
+                                            <Y>290</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-116</X>
+                                            <Y>-522</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>58</X>
+                                            <Y>-522</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="Mass" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Friction" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Restitution" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="IgnoreGravity" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsStatic" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsSensor" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                            <Property Binder="IsProjectile" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="DeathZone" IsComponent="True">
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="death-zone-01" Visible="true">
+                    <Position>
+                        <X>1653</X>
+                        <Y>-87</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="DeathZone" IsComponent="True">
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="PhysicsComponent" IsComponent="True">
+                            <Property Binder="Polygon" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0025" Visible="true">
+                                    <Position>
+                                        <X>1653</X>
+                                        <Y>-87</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>-87</X>
+                                            <Y>377</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-87</X>
+                                            <Y>-493</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>58</X>
+                                            <Y>-493</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>58</X>
+                                            <Y>377</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>1566</X>
+                                            <Y>290</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1566</X>
+                                            <Y>-580</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1711</X>
+                                            <Y>-580</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1711</X>
+                                            <Y>290</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="Mass" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Friction" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Restitution" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="IgnoreGravity" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsStatic" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsSensor" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                            <Property Binder="IsProjectile" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="Lift" Visible="true">
+                    <Position>
+                        <X>1247</X>
+                        <Y>261</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="PhysicsComponent" IsComponent="True">
+                            <Property Binder="Polygon" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0012" Visible="true">
+                                    <Position>
+                                        <X>1247</X>
+                                        <Y>261</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>-145</X>
+                                            <Y>29</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-145</X>
+                                            <Y>-29</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>145</X>
+                                            <Y>-29</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>145</X>
+                                            <Y>29</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>1102</X>
+                                            <Y>290</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1102</X>
+                                            <Y>232</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1392</X>
+                                            <Y>232</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1392</X>
+                                            <Y>290</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="Mass" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Friction" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Restitution" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="IgnoreGravity" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsStatic" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsSensor" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsProjectile" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="TextureComponent" IsComponent="True">
+                            <Property Binder="Texture" Type="TextureItem">
+                                <TextureItem Visible="true">
+                                    <Position>
+                                        <X>1245</X>
+                                        <Y>289</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <Rotation>0</Rotation>
+                                    <Scale>
+                                        <X>1</X>
+                                        <Y>1</Y>
+                                    </Scale>
+                                    <TintColor>
+                                        <R>255</R>
+                                        <G>255</G>
+                                        <B>255</B>
+                                        <A>255</A>
+                                        <PackedValue>4294967295</PackedValue>
+                                    </TintColor>
+                                    <FlipHorizontally>false</FlipHorizontally>
+                                    <FlipVertically>false</FlipVertically>
+                                    <texture_filename>Levels\BlockPriest00\walking-lift-00.png</texture_filename>
+                                    <asset_name>Levels\BlockPriest00\walking-lift-00</asset_name>
+                                    <Origin>
+                                        <X>193</X>
+                                        <Y>109</Y>
+                                    </Origin>
+                                    <isTemplate>false</isTemplate>
+                                </TextureItem>
+                            </Property>
+                            <Property Binder="Offset" Type="Vector2">
+                                <Vector2>
+                                    <X>-6</X>
+                                    <Y>49</Y>
+                                </Vector2>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="MoveAlongPath" IsComponent="True">
+                            <Property Binder="Path" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0013" Visible="true">
+                                    <Position>
+                                        <X>1247</X>
+                                        <Y>261</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>0</X>
+                                            <Y>0</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>0</X>
+                                            <Y>-290</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>1247</X>
+                                            <Y>261</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1247</X>
+                                            <Y>-29</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="Speed" Type="float">
+                                <float>100</float>
+                            </Property>
+                            <Property Binder="IsPatroling" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsMoving" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="LiftController" IsComponent="True">
+                            <Property Binder="IdleDelay" Type="float">
+                                <float>2</float>
+                            </Property>
+                            <Property Binder="MoveBack" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="LiftTrigger" Visible="true">
+                    <Position>
+                        <X>1247</X>
+                        <Y>203</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="PhysicsComponent" IsComponent="True">
+                            <Property Binder="Polygon" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0015" Visible="true">
+                                    <Position>
+                                        <X>1247</X>
+                                        <Y>174</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>-87</X>
+                                            <Y>58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-87</X>
+                                            <Y>0</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>87</X>
+                                            <Y>0</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>87</X>
+                                            <Y>58</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>1160</X>
+                                            <Y>232</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1160</X>
+                                            <Y>174</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1334</X>
+                                            <Y>174</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1334</X>
+                                            <Y>232</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="Mass" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Friction" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Restitution" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="IgnoreGravity" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsStatic" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsSensor" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                            <Property Binder="IsProjectile" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="TriggerComponent" IsComponent="True">
+                            <Property Binder="TriggerType" Type="TriggerTypes">
+                                <TriggerTypes>TT_ON_ENTER</TriggerTypes>
+                            </Property>
+                            <Property Binder="Target" Type="GameObjectReference">
+                                <GameObjectReference>
+                                    <Reference>Lift</Reference>
+                                </GameObjectReference>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="TextureItem" Name="w-shed-roof-00" Visible="true">
+                    <Position>
+                        <X>898</X>
+                        <Y>-49</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\walking-shed-roof-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\walking-shed-roof-00</asset_name>
+                    <Origin>
+                        <X>256</X>
+                        <Y>60</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="w-lift-cover-00" Visible="true">
+                    <Position>
+                        <X>1245</X>
+                        <Y>308</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\walking-lift-base-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\walking-lift-base-00</asset_name>
+                    <Origin>
+                        <X>208</X>
+                        <Y>131</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="w-hay-00" Visible="true">
+                    <Position>
+                        <X>846</X>
+                        <Y>265</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\walking-hay-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\walking-hay-00</asset_name>
+                    <Origin>
+                        <X>391</X>
+                        <Y>173</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="Crate" Visible="true">
+                    <Position>
+                        <X>812</X>
+                        <Y>-116</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="PhysicsComponent" IsComponent="True">
+                            <Property Binder="Polygon" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0017" Visible="true">
+                                    <Position>
+                                        <X>812</X>
+                                        <Y>-116</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>-58</X>
+                                            <Y>58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-58</X>
+                                            <Y>-58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>58</X>
+                                            <Y>-58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>58</X>
+                                            <Y>58</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>754</X>
+                                            <Y>-58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>754</X>
+                                            <Y>-174</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>870</X>
+                                            <Y>-174</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>870</X>
+                                            <Y>-58</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="Mass" Type="float">
+                                <float>10</float>
+                            </Property>
+                            <Property Binder="Friction" Type="float">
+                                <float>0.3</float>
+                            </Property>
+                            <Property Binder="Restitution" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="IgnoreGravity" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsStatic" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsSensor" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsProjectile" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="TextureComponent" IsComponent="True">
+                            <Property Binder="Texture" Type="TextureItem">
+                                <TextureItem Visible="true">
+                                    <Position>
+                                        <X>816</X>
+                                        <Y>-141</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <Rotation>0</Rotation>
+                                    <Scale>
+                                        <X>1</X>
+                                        <Y>1</Y>
+                                    </Scale>
+                                    <TintColor>
+                                        <R>255</R>
+                                        <G>255</G>
+                                        <B>255</B>
+                                        <A>255</A>
+                                        <PackedValue>4294967295</PackedValue>
+                                    </TintColor>
+                                    <FlipHorizontally>false</FlipHorizontally>
+                                    <FlipVertically>false</FlipVertically>
+                                    <texture_filename>Levels\BlockPriest00\walking-crate-00.png</texture_filename>
+                                    <asset_name>Levels\BlockPriest00\walking-crate-00</asset_name>
+                                    <Origin>
+                                        <X>81</X>
+                                        <Y>70</Y>
+                                    </Origin>
+                                    <isTemplate>false</isTemplate>
+                                </TextureItem>
+                            </Property>
+                            <Property Binder="Offset" Type="Vector2">
+                                <Vector2>
+                                    <X>0</X>
+                                    <Y>-10</Y>
+                                </Vector2>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="CrateController" IsComponent="True">
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="Guard" Visible="true">
+                    <Position>
+                        <X>841</X>
+                        <Y>145</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="GuardStart" IsComponent="True">
+                            <Property Binder="Facing" Type="int">
+                                <int>-1</int>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="Priest" Visible="true">
+                    <Position>
+                        <X>145</X>
+                        <Y>145</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="PriestStart" IsComponent="True">
+                            <Property Binder="Facing" Type="int">
+                                <int>1</int>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="Player" Visible="true">
+                    <Position>
+                        <X>1508</X>
+                        <Y>116</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="PlayerStart" IsComponent="True">
+                            <Property Binder="Facing" Type="int">
+                                <int>-1</int>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="Camera" IsComponent="True">
+                            <Property Binder="CameraPolygon" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0027" Visible="true">
+                                    <Position>
+                                        <X>1508</X>
+                                        <Y>116</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>-1566</X>
+                                            <Y>319</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-1566</X>
+                                            <Y>-696</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>174</X>
+                                            <Y>-696</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>174</X>
+                                            <Y>319</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>-58</X>
+                                            <Y>435</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-58</X>
+                                            <Y>-580</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1682</X>
+                                            <Y>-580</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>1682</X>
+                                            <Y>435</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+            </Items>
+            <ScrollSpeed>
+                <X>1</X>
+                <Y>1</Y>
+            </ScrollSpeed>
+            <CustomProperties />
+        </Layer>
+        <Layer Name="cursor-layer" Visible="true">
+            <Items>
+                <Item xsi:type="GameObjectItem" Name="Cursor" Visible="true">
+                    <Position>
+                        <X>1363</X>
+                        <Y>126</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="Cursor" IsComponent="True">
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+            </Items>
+            <ScrollSpeed>
+                <X>1</X>
+                <Y>1</Y>
+            </ScrollSpeed>
+            <CustomProperties />
+        </Layer>
+        <Layer Name="front" Visible="true">
+            <Items>
+                <Item xsi:type="TextureItem" Name="f-shed-00" Visible="true">
+                    <Position>
+                        <X>852</X>
+                        <Y>20</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\front-shed-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\front-shed-00</asset_name>
+                    <Origin>
+                        <X>313</X>
+                        <Y>420</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="f-crate-00" Visible="true">
+                    <Position>
+                        <X>47</X>
+                        <Y>323</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\front-crate-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\front-crate-00</asset_name>
+                    <Origin>
+                        <X>111</X>
+                        <Y>115</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="f-barrel-00" Visible="true">
+                    <Position>
+                        <X>744</X>
+                        <Y>278</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\front-barrel-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\front-barrel-00</asset_name>
+                    <Origin>
+                        <X>81</X>
+                        <Y>78</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="f-unicorn-00" Visible="true">
+                    <Position>
+                        <X>928</X>
+                        <Y>292</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\front-unicorn.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\front-unicorn</asset_name>
+                    <Origin>
+                        <X>198</X>
+                        <Y>114</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="f-door-00" Visible="true">
+                    <Position>
+                        <X>1496</X>
+                        <Y>81</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\front-door-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\front-door-00</asset_name>
+                    <Origin>
+                        <X>198</X>
+                        <Y>239</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="f-book-candled-00" Visible="true">
+                    <Position>
+                        <X>1589</X>
+                        <Y>241</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\front-table-candles-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\front-table-candles-00</asset_name>
+                    <Origin>
+                        <X>85</X>
+                        <Y>147</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="f-gradient-lower" Visible="true">
+                    <Position>
+                        <X>815</X>
+                        <Y>159</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\front-gradient-lower.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\front-gradient-lower</asset_name>
+                    <Origin>
+                        <X>879</X>
+                        <Y>276</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="TextureItem" Name="f-gradient-upper" Visible="true">
+                    <Position>
+                        <X>837</X>
+                        <Y>-595</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\front-gradient-upper.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\front-gradient-upper</asset_name>
+                    <Origin>
+                        <X>879</X>
+                        <Y>290</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="f-candle-00" Visible="true">
+                    <Position>
+                        <X>58</X>
+                        <Y>95</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="AnimationComponent" IsComponent="True">
+                            <Property Binder="Sprite" Type="AnimationItem">
+                                <AnimationItem Visible="true">
+                                    <Position>
+                                        <X>58</X>
+                                        <Y>95</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <Rotation>0</Rotation>
+                                    <Scale>
+                                        <X>1</X>
+                                        <Y>1</Y>
+                                    </Scale>
+                                    <TintColor>
+                                        <R>255</R>
+                                        <G>255</G>
+                                        <B>255</B>
+                                        <A>255</A>
+                                        <PackedValue>4294967295</PackedValue>
+                                    </TintColor>
+                                    <FlipHorizontally>false</FlipHorizontally>
+                                    <FlipVertically>false</FlipVertically>
+                                    <texture_filename>Levels\BlockPriest00\candle-animation.png</texture_filename>
+                                    <asset_name>Levels\BlockPriest00\candle-animation</asset_name>
+                                    <Origin>
+                                        <X>112</X>
+                                        <Y>33</Y>
+                                    </Origin>
+                                    <isTemplate>false</isTemplate>
+                                    <AnimationData>
+                                        <AnimationDataItem>
+                                            <Name>Burning</Name>
+                                            <Duration>0.5</Duration>
+                                            <Priority>0</Priority>
+                                            <Frames>4</Frames>
+                                            <Column>0</Column>
+                                            <IsLooping>true</IsLooping>
+                                        </AnimationDataItem>
+                                    </AnimationData>
+                                    <FrameWidth>56</FrameWidth>
+                                    <Columns>1</Columns>
+                                </AnimationItem>
+                            </Property>
+                            <Property Binder="PlayingAnimation" Type="string">
+                                <string>Burning</string>
+                            </Property>
+                            <Property Binder="Alpha" Type="float">
+                                <float>1</float>
+                            </Property>
+                            <Property Binder="Facing" Type="int">
+                                <int>0</int>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="f-candle-01" Visible="true">
+                    <Position>
+                        <X>1613</X>
+                        <Y>91</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="AnimationComponent" IsComponent="True">
+                            <Property Binder="Sprite" Type="AnimationItem">
+                                <AnimationItem Visible="true">
+                                    <Position>
+                                        <X>1613</X>
+                                        <Y>91</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <Rotation>0</Rotation>
+                                    <Scale>
+                                        <X>1</X>
+                                        <Y>1</Y>
+                                    </Scale>
+                                    <TintColor>
+                                        <R>255</R>
+                                        <G>255</G>
+                                        <B>255</B>
+                                        <A>255</A>
+                                        <PackedValue>4294967295</PackedValue>
+                                    </TintColor>
+                                    <FlipHorizontally>false</FlipHorizontally>
+                                    <FlipVertically>false</FlipVertically>
+                                    <texture_filename>Levels\BlockPriest00\candle-animation.png</texture_filename>
+                                    <asset_name>Levels\BlockPriest00\candle-animation</asset_name>
+                                    <Origin>
+                                        <X>112</X>
+                                        <Y>33</Y>
+                                    </Origin>
+                                    <isTemplate>false</isTemplate>
+                                    <AnimationData>
+                                        <AnimationDataItem>
+                                            <Name>Burning</Name>
+                                            <Duration>0.5</Duration>
+                                            <Priority>0</Priority>
+                                            <Frames>4</Frames>
+                                            <Column>0</Column>
+                                            <IsLooping>true</IsLooping>
+                                        </AnimationDataItem>
+                                    </AnimationData>
+                                    <FrameWidth>56</FrameWidth>
+                                    <Columns>1</Columns>
+                                </AnimationItem>
+                            </Property>
+                            <Property Binder="PlayingAnimation" Type="string">
+                                <string>Burning</string>
+                            </Property>
+                            <Property Binder="Alpha" Type="float">
+                                <float>1</float>
+                            </Property>
+                            <Property Binder="Facing" Type="int">
+                                <int>0</int>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="f-candle-02" Visible="true">
+                    <Position>
+                        <X>1646</X>
+                        <Y>120</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="AnimationComponent" IsComponent="True">
+                            <Property Binder="Sprite" Type="AnimationItem">
+                                <AnimationItem Visible="true">
+                                    <Position>
+                                        <X>1646</X>
+                                        <Y>120</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <Rotation>0</Rotation>
+                                    <Scale>
+                                        <X>1</X>
+                                        <Y>1</Y>
+                                    </Scale>
+                                    <TintColor>
+                                        <R>255</R>
+                                        <G>255</G>
+                                        <B>255</B>
+                                        <A>255</A>
+                                        <PackedValue>4294967295</PackedValue>
+                                    </TintColor>
+                                    <FlipHorizontally>false</FlipHorizontally>
+                                    <FlipVertically>false</FlipVertically>
+                                    <texture_filename>Levels\BlockPriest00\candle-animation.png</texture_filename>
+                                    <asset_name>Levels\BlockPriest00\candle-animation</asset_name>
+                                    <Origin>
+                                        <X>112</X>
+                                        <Y>33</Y>
+                                    </Origin>
+                                    <isTemplate>false</isTemplate>
+                                    <AnimationData>
+                                        <AnimationDataItem>
+                                            <Name>Burning</Name>
+                                            <Duration>0.5</Duration>
+                                            <Priority>0</Priority>
+                                            <Frames>4</Frames>
+                                            <Column>0</Column>
+                                            <IsLooping>true</IsLooping>
+                                        </AnimationDataItem>
+                                    </AnimationData>
+                                    <FrameWidth>56</FrameWidth>
+                                    <Columns>1</Columns>
+                                </AnimationItem>
+                            </Property>
+                            <Property Binder="PlayingAnimation" Type="string">
+                                <string>Burning</string>
+                            </Property>
+                            <Property Binder="Alpha" Type="float">
+                                <float>1</float>
+                            </Property>
+                            <Property Binder="Facing" Type="int">
+                                <int>0</int>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+            </Items>
+            <ScrollSpeed>
+                <X>1</X>
+                <Y>1</Y>
+            </ScrollSpeed>
+            <CustomProperties />
+        </Layer>
+        <Layer Name="nearfront" Visible="true">
+            <Items>
+                <Item xsi:type="TextureItem" Name="nf-shadows-00" Visible="true">
+                    <Position>
+                        <X>1186</X>
+                        <Y>201</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <TintColor>
+                        <R>255</R>
+                        <G>255</G>
+                        <B>255</B>
+                        <A>255</A>
+                        <PackedValue>4294967295</PackedValue>
+                    </TintColor>
+                    <FlipHorizontally>false</FlipHorizontally>
+                    <FlipVertically>false</FlipVertically>
+                    <texture_filename>Levels\BlockPriest00\nearfront-shadows-00.png</texture_filename>
+                    <asset_name>Levels\BlockPriest00\nearfront-shadows-00</asset_name>
+                    <Origin>
+                        <X>836</X>
+                        <Y>226</Y>
+                    </Origin>
+                    <isTemplate>false</isTemplate>
+                </Item>
+            </Items>
+            <ScrollSpeed>
+                <X>1.4</X>
+                <Y>1.4</Y>
+            </ScrollSpeed>
+            <CustomProperties />
+        </Layer>
+    </Layers>
+    <CustomProperties />
+    <EditorRelated>
+        <NextItemNumber>60</NextItemNumber>
+        <ContentRootFolder>E:\Pontification\GIT\Game\PontificationContent</ContentRootFolder>
+        <CameraPosition>
+            <X>691.6682</X>
+            <Y>-325.000519</Y>
+        </CameraPosition>
+        <Version>1.3.0.0</Version>
+    </EditorRelated>
+</Scene>

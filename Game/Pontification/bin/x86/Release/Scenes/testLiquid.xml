@@ -1,0 +1,682 @@
+<?xml version="1.0"?>
+<Scene xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Level_01" Visible="true">
+    <Layers>
+        <Layer Name="walking" Visible="true">
+            <Items>
+                <Item xsi:type="PhysicsPath" Name="PhysicsPath_0001" Visible="true">
+                    <Position>
+                        <X>-638</X>
+                        <Y>0</Y>
+                    </Position>
+                    <CustomProperties />
+                    <LocalPoints>
+                        <Vector2>
+                            <X>0</X>
+                            <Y>0</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>0</X>
+                            <Y>116</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>1218</X>
+                            <Y>116</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>1218</X>
+                            <Y>0</Y>
+                        </Vector2>
+                    </LocalPoints>
+                    <WorldPoints>
+                        <Vector2>
+                            <X>-638</X>
+                            <Y>0</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>-638</X>
+                            <Y>116</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>580</X>
+                            <Y>116</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>580</X>
+                            <Y>0</Y>
+                        </Vector2>
+                    </WorldPoints>
+                    <IsPolygon>true</IsPolygon>
+                    <LineWidth>8</LineWidth>
+                    <LineColor>
+                        <R>192</R>
+                        <G>0</G>
+                        <B>192</B>
+                        <A>145</A>
+                        <PackedValue>2445279424</PackedValue>
+                    </LineColor>
+                    <Mass>10</Mass>
+                    <Friction>2</Friction>
+                    <Restitution>0.2</Restitution>
+                    <PhysicsType>Static</PhysicsType>
+                </Item>
+                <Item xsi:type="PhysicsPath" Name="PhysicsPath_0008" Visible="true">
+                    <Position>
+                        <X>-638</X>
+                        <Y>-203</Y>
+                    </Position>
+                    <CustomProperties />
+                    <LocalPoints>
+                        <Vector2>
+                            <X>0</X>
+                            <Y>0</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>232</X>
+                            <Y>0</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>232</X>
+                            <Y>-87</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>0</X>
+                            <Y>-87</Y>
+                        </Vector2>
+                    </LocalPoints>
+                    <WorldPoints>
+                        <Vector2>
+                            <X>-638</X>
+                            <Y>-203</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>-406</X>
+                            <Y>-203</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>-406</X>
+                            <Y>-290</Y>
+                        </Vector2>
+                        <Vector2>
+                            <X>-638</X>
+                            <Y>-290</Y>
+                        </Vector2>
+                    </WorldPoints>
+                    <IsPolygon>true</IsPolygon>
+                    <LineWidth>8</LineWidth>
+                    <LineColor>
+                        <R>192</R>
+                        <G>0</G>
+                        <B>192</B>
+                        <A>145</A>
+                        <PackedValue>2445279424</PackedValue>
+                    </LineColor>
+                    <Mass>10</Mass>
+                    <Friction>2</Friction>
+                    <Restitution>0.2</Restitution>
+                    <PhysicsType>Static</PhysicsType>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="crate" Visible="true">
+                    <Position>
+                        <X>-290</X>
+                        <Y>-58</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="PhysicsComponent" IsComponent="True">
+                            <Property Binder="Polygon" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0010" Visible="true">
+                                    <Position>
+                                        <X>-290</X>
+                                        <Y>-58</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>-58</X>
+                                            <Y>58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>58</X>
+                                            <Y>58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>58</X>
+                                            <Y>-58</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-58</X>
+                                            <Y>-58</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>-348</X>
+                                            <Y>0</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-232</X>
+                                            <Y>0</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-232</X>
+                                            <Y>-116</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-348</X>
+                                            <Y>-116</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="Mass" Type="float">
+                                <float>5</float>
+                            </Property>
+                            <Property Binder="Friction" Type="float">
+                                <float>0.1</float>
+                            </Property>
+                            <Property Binder="Restitution" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="IgnoreGravity" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsStatic" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsSensor" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsProjectile" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsEthereal" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="CrateController" IsComponent="True">
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="TextureComponent" IsComponent="True">
+                            <Property Binder="Texture" Type="TextureItem">
+                                <TextureItem Visible="true">
+                                    <Position>
+                                        <X>-290</X>
+                                        <Y>-58</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <Rotation>0</Rotation>
+                                    <Scale>
+                                        <X>1</X>
+                                        <Y>1</Y>
+                                    </Scale>
+                                    <TintColor>
+                                        <R>255</R>
+                                        <G>255</G>
+                                        <B>255</B>
+                                        <A>255</A>
+                                        <PackedValue>4294967295</PackedValue>
+                                    </TintColor>
+                                    <FlipHorizontally>false</FlipHorizontally>
+                                    <FlipVertically>false</FlipVertically>
+                                    <texture_filename>Levels\PuzzleConcepts\crate-concept.png</texture_filename>
+                                    <asset_name>Levels\PuzzleConcepts\crate-concept</asset_name>
+                                    <Origin>
+                                        <X>58</X>
+                                        <Y>58</Y>
+                                    </Origin>
+                                    <isTemplate>false</isTemplate>
+                                </TextureItem>
+                            </Property>
+                            <Property Binder="Offset" Type="Vector2">
+                                <Vector2>
+                                    <X>0</X>
+                                    <Y>0</Y>
+                                </Vector2>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="Player" Visible="true">
+                    <Position>
+                        <X>-435</X>
+                        <Y>-406</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="PlayerStart" IsComponent="True">
+                            <Property Binder="Facing" Type="int">
+                                <int>1</int>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="Camera" IsComponent="True">
+                            <Property Binder="CameraPolygon" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0003" Visible="true">
+                                    <Position>
+                                        <X>-1218</X>
+                                        <Y>435</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>0</X>
+                                            <Y>0</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>2146</X>
+                                            <Y>0</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>2146</X>
+                                            <Y>-1102</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>0</X>
+                                            <Y>-1102</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>-1218</X>
+                                            <Y>435</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>928</X>
+                                            <Y>435</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>928</X>
+                                            <Y>-667</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-1218</X>
+                                            <Y>-667</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="Liquid" Visible="true">
+                    <Position>
+                        <X>-87</X>
+                        <Y>290</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="TextureComponent" IsComponent="True">
+                            <Property Binder="Texture" Type="TextureItem">
+                                <TextureItem Visible="true">
+                                    <Position>
+                                        <X>-87</X>
+                                        <Y>290</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <Rotation>0</Rotation>
+                                    <Scale>
+                                        <X>1</X>
+                                        <Y>1</Y>
+                                    </Scale>
+                                    <TintColor>
+                                        <R>255</R>
+                                        <G>255</G>
+                                        <B>255</B>
+                                        <A>255</A>
+                                        <PackedValue>4294967295</PackedValue>
+                                    </TintColor>
+                                    <FlipHorizontally>false</FlipHorizontally>
+                                    <FlipVertically>false</FlipVertically>
+                                    <texture_filename>Levels\PuzzleConcepts\bile-concept.png</texture_filename>
+                                    <asset_name>Levels\PuzzleConcepts\bile-concept</asset_name>
+                                    <Origin>
+                                        <X>754</X>
+                                        <Y>29</Y>
+                                    </Origin>
+                                    <isTemplate>false</isTemplate>
+                                </TextureItem>
+                            </Property>
+                            <Property Binder="Offset" Type="Vector2">
+                                <Vector2>
+                                    <X>0</X>
+                                    <Y>0</Y>
+                                </Vector2>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="PhysicsComponent" IsComponent="True">
+                            <Property Binder="Polygon" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0012" Visible="true">
+                                    <Position>
+                                        <X>-87</X>
+                                        <Y>290</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>-754</X>
+                                            <Y>29</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>754</X>
+                                            <Y>29</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>754</X>
+                                            <Y>-29</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-754</X>
+                                            <Y>-29</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>-841</X>
+                                            <Y>319</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>667</X>
+                                            <Y>319</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>667</X>
+                                            <Y>261</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-841</X>
+                                            <Y>261</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="Mass" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Friction" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="Restitution" Type="float">
+                                <float>0</float>
+                            </Property>
+                            <Property Binder="IgnoreGravity" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsStatic" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsSensor" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsProjectile" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsEthereal" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="MoveAlongPath" IsComponent="True">
+                            <Property Binder="Path" Type="PolygonPath">
+                                <PolygonPath Name="PolygonPath_0013" Visible="true">
+                                    <Position>
+                                        <X>-87</X>
+                                        <Y>290</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <LocalPoints>
+                                        <Vector2>
+                                            <X>0</X>
+                                            <Y>0</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>0</X>
+                                            <Y>-812</Y>
+                                        </Vector2>
+                                    </LocalPoints>
+                                    <WorldPoints>
+                                        <Vector2>
+                                            <X>-87</X>
+                                            <Y>290</Y>
+                                        </Vector2>
+                                        <Vector2>
+                                            <X>-87</X>
+                                            <Y>-522</Y>
+                                        </Vector2>
+                                    </WorldPoints>
+                                    <IsPolygon>true</IsPolygon>
+                                    <LineWidth>8</LineWidth>
+                                    <LineColor>
+                                        <R>192</R>
+                                        <G>0</G>
+                                        <B>192</B>
+                                        <A>145</A>
+                                        <PackedValue>2445279424</PackedValue>
+                                    </LineColor>
+                                </PolygonPath>
+                            </Property>
+                            <Property Binder="Speed" Type="float">
+                                <float>50</float>
+                            </Property>
+                            <Property Binder="IsPatroling" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsMoving" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="Liquid" IsComponent="True">
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+                <Item xsi:type="GameObjectItem" Name="Cursor" Visible="true">
+                    <Position>
+                        <X>-116</X>
+                        <Y>-319</Y>
+                    </Position>
+                    <CustomProperties />
+                    <Rotation>0</Rotation>
+                    <Scale>
+                        <X>1</X>
+                        <Y>1</Y>
+                    </Scale>
+                    <IsActive>false</IsActive>
+                    <Components>
+                        <PropertyBag TypeName="AnimationComponent" IsComponent="True">
+                            <Property Binder="Sprite" Type="AnimationItem">
+                                <AnimationItem Visible="true">
+                                    <Position>
+                                        <X>-116</X>
+                                        <Y>-319</Y>
+                                    </Position>
+                                    <CustomProperties />
+                                    <Rotation>0</Rotation>
+                                    <Scale>
+                                        <X>1</X>
+                                        <Y>1</Y>
+                                    </Scale>
+                                    <TintColor>
+                                        <R>255</R>
+                                        <G>255</G>
+                                        <B>255</B>
+                                        <A>255</A>
+                                        <PackedValue>4294967295</PackedValue>
+                                    </TintColor>
+                                    <FlipHorizontally>false</FlipHorizontally>
+                                    <FlipVertically>false</FlipVertically>
+                                    <texture_filename>CharacterSprites\cursor_sprite.png</texture_filename>
+                                    <asset_name>CharacterSprites\cursor_sprite</asset_name>
+                                    <Origin>
+                                        <X>350</X>
+                                        <Y>68</Y>
+                                    </Origin>
+                                    <isTemplate>false</isTemplate>
+                                    <AnimationData>
+                                        <AnimationDataItem>
+                                            <Name>Idle</Name>
+                                            <Duration>0.7</Duration>
+                                            <Priority>0</Priority>
+                                            <Frames>8</Frames>
+                                            <Column>0</Column>
+                                            <IsLooping>true</IsLooping>
+                                        </AnimationDataItem>
+                                        <AnimationDataItem>
+                                            <Name>Alert</Name>
+                                            <Duration>0.5</Duration>
+                                            <Priority>0</Priority>
+                                            <Frames>10</Frames>
+                                            <Column>1</Column>
+                                            <IsLooping>true</IsLooping>
+                                        </AnimationDataItem>
+                                    </AnimationData>
+                                    <FrameWidth>70</FrameWidth>
+                                    <Columns>2</Columns>
+                                </AnimationItem>
+                            </Property>
+                            <Property Binder="Alpha" Type="float">
+                                <float>1</float>
+                            </Property>
+                            <Property Binder="Facing" Type="int">
+                                <int>0</int>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                        <PropertyBag TypeName="Cursor" IsComponent="True">
+                            <Property Binder="CursorAnimations" Type="PropertyBag">
+                                <PropertyBag TypeName="" IsComponent="False">
+                                    <Property Binder="CS_IDLE" Type="string">
+                                        <string>Idle</string>
+                                    </Property>
+                                    <Property Binder="CS_ALERT" Type="string">
+                                        <string>Alert</string>
+                                    </Property>
+                                </PropertyBag>
+                            </Property>
+                            <Property Binder="IsInitialized" Type="bool">
+                                <boolean>false</boolean>
+                            </Property>
+                            <Property Binder="IsActive" Type="bool">
+                                <boolean>true</boolean>
+                            </Property>
+                        </PropertyBag>
+                    </Components>
+                </Item>
+            </Items>
+            <ScrollSpeed>
+                <X>1</X>
+                <Y>1</Y>
+            </ScrollSpeed>
+            <CustomProperties />
+        </Layer>
+    </Layers>
+    <CustomProperties />
+    <EditorRelated>
+        <NextItemNumber>13</NextItemNumber>
+        <ContentRootFolder>E:\Pontification\GIT\Game\PontificationContent</ContentRootFolder>
+        <CameraPosition>
+            <X>0</X>
+            <Y>16.6667061</Y>
+        </CameraPosition>
+        <Version>1.3.0.0</Version>
+    </EditorRelated>
+</Scene>
