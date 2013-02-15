@@ -1,0 +1,37 @@
+# General ignore patterns
+*~
+*.bak
+*.suo
+*.cachefile
+*.Debug.cachefile
+*.ccgame
+*.userprefs
+*.vsp
+*.xnb
+!*.dll
+
+MercuryParticleEditor/
+
+Game/MPE/
+Game/MPE/ProjectMercury.ContentPipeline/[Oo]bj
+Game/MPE/ProjectMercury.Design/[Oo]bj
+Game/MPE/ProjectMercury.EffectEditor/[Bb]in
+Game/MPE/ProjectMercury.EffectEditor/[Oo]bj
+Game/MPE/ProjectMercury.EffectEditor.DefaultPluginLibrary/[Oo]bj
+Game/MPE/ProjectMercury.EffectEditor.PluginInterfaces/[Oo]bj
+Game/MPE/ProjectMercury.Windows/[Oo]bj
+
+# General bin directories of XNA projects
+**/**/[Bb]in
+**/**/[Oo]bj
+**/**/Content/[Bb]in
+**/**/Content/[Oo]bj
+
+# Ignore patterns for PontEditor
+PontEditor/MPE/ProjectMercury.ContentPipeline/[Oo]bj
+PontEditor/MPE/ProjectMercury.Design/[Oo]bj
+PontEditor/MPE/ProjectMercury.EffectEditor/[Bb]in
+PontEditor/MPE/ProjectMercury.EffectEditor/[Oo]bj
+PontEditor/MPE/ProjectMercury.EffectEditor.DefaultPluginLibrary/[Oo]bj
+PontEditor/MPE/ProjectMercury.EffectEditor.PluginInterfaces/[Oo]bj
+PontEditor/MPE/ProjectMercury.Windows/[Oo]bj
